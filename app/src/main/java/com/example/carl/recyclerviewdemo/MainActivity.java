@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         rv = findViewById(R.id.rv2);
 
-        rv.setLayoutManager(new GridLayoutManager(this,5));
+        rv.setLayoutManager(new GridLayoutManager(this,3));
 
         rv.setAdapter(new GridAdapter(this));
     }

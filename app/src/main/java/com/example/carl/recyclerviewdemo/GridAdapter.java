@@ -35,7 +35,7 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.GridViewHolder
 
     @Override
     public int getItemCount() {
-        return 30;
+        return 40;
     }
 
     class GridViewHolder extends RecyclerView.ViewHolder{
